@@ -26,9 +26,11 @@ namespace AddressTrainer
                         && d.Name == "div"
                         && d.InnerText.Any(ch => Char.IsNumber(ch));
                 })
-                .Select(d => d.InnerText)
+                .Select(d => d.InnerHtml)
+                .Select(html => new AddressVector(html, true))
                 .ToList();
 
+            string cheese = "tasty"; 
              
         }
     }

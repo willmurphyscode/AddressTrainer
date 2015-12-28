@@ -80,6 +80,7 @@ namespace AddressTrainer
         #region constructors
         public AddressVector(string candidate, bool isAddress)
         {
+            this.data = new double[PropertyNamesToIxes.Count]; 
             this.isAddress = isAddress;
             this.originalInput = candidate;
             this.SetAllProps(candidate); 
