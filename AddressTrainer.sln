@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressTrainer", "AddressTrainer\AddressTrainer.csproj", "{2BC3A9C8-9605-49E5-899F-C1231E9AE59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressTrainer.Tests", "AddressTrainer.Tests\AddressTrainer.Tests.csproj", "{D7797267-CDB6-4BCF-AEC1-D23B6447858C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC3A9C8-9605-49E5-899F-C1231E9AE59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC3A9C8-9605-49E5-899F-C1231E9AE59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC3A9C8-9605-49E5-899F-C1231E9AE59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC3A9C8-9605-49E5-899F-C1231E9AE59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7797267-CDB6-4BCF-AEC1-D23B6447858C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7797267-CDB6-4BCF-AEC1-D23B6447858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7797267-CDB6-4BCF-AEC1-D23B6447858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7797267-CDB6-4BCF-AEC1-D23B6447858C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
